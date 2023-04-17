@@ -1,6 +1,4 @@
-/* selector{
-    property : Value 
-} */
+
 html{
     scroll-behavior: smooth;
     
@@ -118,6 +116,7 @@ form{
     width: 410px;
     height: 470px;
     margin-left: 817px;
+    z-index: 100;
 }
 
 
@@ -129,7 +128,8 @@ form{
     width: 420px;
     height: 480px;
     margin-top: -440px;
-    scale: 100%;
+    position: relative;
+    z-index: 999;
 }
 
 .img-circle:hover {scale: 103%;}
@@ -193,9 +193,14 @@ form{
     width:140px;
     height:140px;
 }
+.working_img{
+    width:140px;
+    margin-top: -584px;
+    height:170px;
+}
 
 
-.python_img:hover,.html_img:hover,.css_img:hover,.react_img:hover,.js_img:hover,.c_img:hover{
+.python_img:hover,.html_img:hover,.css_img:hover,.working_img:hover,.js_img:hover,.c_img:hover{
     scale: 103%;
 }
 
