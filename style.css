@@ -154,42 +154,45 @@ form{
 } 
 
 .sklls,.projects,.experenses,.contacts,main{
-width: 100%;
+width: 99%;
 height: 22%;
+display: inline;
 
 }
 .skill{
     padding-top: 60px;
     color: black;
-    margin-top: 180px;
+    margin-top: 18%;
     text-align: center;
     font-size: 40px;
 }
 
 
 .js_html{
-    margin-top:12%;
+    margin-top: 8%;
     margin-left: 19%;   
     width :10%;
-    height:350px;
+    height:9%;
     text-align: center;
 }
 
 
 .react_css{
-    margin-top:-26%;
+    margin-top: -29%;
+
     margin-left: 47%;
     width :10%;
-    height:350px;
+    height:9%;
     text-align: center;
 }
 
 
 .python_c{
-    margin-top:-25.7%;
+
+    margin-top:-29%;
     margin-left: 73%;
     width :10%;
-    height:350px;
+    height:9%;
     text-align: center;
 }
 
@@ -360,11 +363,12 @@ li{
 
 footer{
     margin-top: 10%;
-    margin-left: -10px;
-    margin-bottom: -10px;
-    width: 1441px;
-    height: 400px;
+    margin-left: -0.58%;
+    margin-bottom: -3%;
+    width: 100%;
+    height: 35%;
     background-color: rgba(0, 0, 0, 0.456);
+    padding-bottom: 2px;
 }
 
 
@@ -372,13 +376,12 @@ p{
     padding-top: 11%;
     text-align:center ;
     font-size: 60px;
-    color:black
+    color:black;
 }   
 
 
 h5{
-    padding-top: 80px;
-    padding-left: 89%;
+    margin-top: 10%;
     color: black;
-    text-align: left;
+    text-align: right;
 }
