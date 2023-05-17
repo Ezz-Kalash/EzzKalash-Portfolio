@@ -165,14 +165,13 @@ height: 22%;
 .js_html,.c_css{
     width :10%;
     height:10%;
-    margin-left: 27vw;
+    margin-left: 26vw;
     text-align:center;
 }
 
 
 
 .html,.js,.c,.css{
-
     font-size: 2vw;
     color: black;
     text-align:center;
@@ -180,7 +179,7 @@ height: 22%;
 
 
 .html_img,.css_img,.c_img,.js_img{
-    width:98%;
+    width:97.9%;
     margin-bottom:2%;
     transition: 400ms;
 
