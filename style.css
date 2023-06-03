@@ -22,6 +22,9 @@ header {
     width: 99vw;
     height: 3vw;
     text-align: center;
+    backdrop-filter: blur(10px);
+    padding-top: 30px;
+    margin-top: -0.1vw;
 
 }
 
