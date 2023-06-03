@@ -25,6 +25,7 @@ header {
     backdrop-filter: blur(10px);
     padding-top: 30px;
     margin-top: -0.1vw;
+     z-index: 999;
 
 }
 
@@ -114,6 +115,8 @@ header {
     height: 40vw;
     margin-left: 60%;
     margin-bottom: 3vw;
+    z-index: -13;
+
 }
 
 .img{
