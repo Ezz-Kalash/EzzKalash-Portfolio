@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="style.css">     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo.png">
 </head>
@@ -9,25 +10,110 @@
     <title>EzzAldeen Portfolio</title>
 
 
-<header>
+<script>
+function reset() {
+
+
+    document.getElementById('dark').style.backgroundImage = 'url(image.jpg)'
+    document.getElementById('dd').style.color = 'white'
+    document.getElementById('skill').style.color = 'white'
+    document.getElementById('html').style.color = 'white'
+    document.getElementById('js').style.color = 'white'
+    document.getElementById('c').style.color = 'white'
+    document.getElementById('css').style.color = 'white'
+    document.getElementById('cont').style.color = 'white'
+    document.getElementById('project').style.color = 'white'
+    document.getElementById('progress').style.color = 'white'
+    document.getElementById('in').style.color = 'white'
+    document.getElementById('wats').style.color = 'white'
+    document.getElementById('face').style.color = 'white'
+    document.getElementById('insta').style.color = 'white'
+    document.getElementById('git').style.color = 'white'
+    document.getElementById('email').style.color = 'white'
+    document.getElementById('expe').style.color = 'white'
+    document.getElementById('experence_font_color').style.color = 'blue'
+    document.getElementById('li').style.color = 'white'
+    document.getElementById('li2').style.color = 'white'
+    document.getElementById('li3').style.color = 'white'
+    document.getElementById('li4').style.color = 'white'
+    document.getElementById('li5').style.color = 'white'
+    document.getElementById('li6').style.color = 'white'
+    document.getElementById('thank').style.color = 'white'
+    document.getElementById('right').style.color = 'white'
+
+    document.getElementById('darkmode').style.display = 'none'
+    document.getElementById('notdark').style.display = 'inline'
+
+    
+
+
+
+}
+function reset2() {
+
+
+document.getElementById('dark').style.backgroundImage = 'url(bb.jpg)'
+document.getElementById('notdark').style.display = 'none'
+document.getElementById('darkmode').style.display = 'inline'
+document.getElementById('dd').style.color = 'black'
+    document.getElementById('skill').style.color = 'black'
+    document.getElementById('html').style.color = 'black'
+    document.getElementById('js').style.color = 'black'
+    document.getElementById('c').style.color = 'black'
+    document.getElementById('css').style.color = 'black'
+    document.getElementById('cont').style.color = 'black'
+    document.getElementById('project').style.color = 'black'
+    document.getElementById('progress').style.color = 'black'
+    document.getElementById('in').style.color = 'black'
+    document.getElementById('wats').style.color = 'black'
+    document.getElementById('face').style.color = 'black'
+    document.getElementById('insta').style.color = 'black'
+    document.getElementById('git').style.color = 'black'
+    document.getElementById('email').style.color = 'black'
+    document.getElementById('expe').style.color = 'black'
+    document.getElementById('experence_font_color').style.color = 'black'
+    document.getElementById('li').style.color = 'black'
+    document.getElementById('li2').style.color = 'black'
+    document.getElementById('li3').style.color = 'black'
+    document.getElementById('li4').style.color = 'black'
+    document.getElementById('li5').style.color = 'black'
+    document.getElementById('li6').style.color = 'black'
+    document.getElementById('thank').style.color = 'black'
+    document.getElementById('right').style.color = 'black'
+
+
+
+
+
+}
+
+
+
+</script>
+
+
+<body id="dark">
+    <header>
         <a href="#top"  class="home_head" target="" >Home</a>
         <a href="#skill"  class="skill_head" target="" >Skills</a>
         <a href="#project" class="project_head" target="">Projects</a>
         <a href="#expe" class="experience_head">Experiences</a>
+        <a href="#cont" class="cont_head">Contact</a>
+
+
+        <img src="dark.png" alt="" onclick="reset()" class="darkmode" id="darkmode">
+        <img src="sun.png" alt="" onclick="reset2()" class="notdark" id="notdark">
 </header>
 
-
-<body>
-    
-    <main>
-        <div class="develop">
-        <div class="hello"><h1> Im Ezz Aldeen Kalash,</h1></div>
-        <div class="major"><h2> Computer Systems Engineer</h2></div>
-        <div class="aaup"><h2>Student At AAUP</h2></div>
+    <main> 
+        <div class="develop" id="dd">
+        <div class="hello" id="dark"><h1> Im Ezz Aldeen Kalash,</h1></div>
+        <div class="major" ><h2> Computer Systems Engineer</h2></div>
+        <div class="aaup" id="dark"><h2>Student At AAUP</h2></div>
         <div class="this"><h3>And this is My Website</h3></div>
-        <form action="#cont" target="">
-            <input  class = "contact_button" type="submit"  value="Contact Me"  >
-        </form>
+        <br>
+        <a href="#contact" class="contact_button" target="">Contact Me</a>
+
     </div>
     </main>
 
@@ -42,25 +128,25 @@
 <div class ="sklls">
 
     <div class="js_html">
-        <h3 class="js">JavaScript</h3>
+        <h3 class="js" id="js">JavaScript</h3>
         <img  class="js_img" src="js.png" alt="javascript_logo">
 
-        <h3 class="html">HTML</h3>
+        <h3 class="html" id="html">HTML</h3>
         <img class="html_img"src="html.png" alt="html_logo">
     </div>
 
-    <div class="c_css">
-        <h3 class="c">C++</h3>
+    <div class="c_css" >
+        <h3 class="c" id="c">C++</h3>
         <img class="c_img"src="c-.png" alt="c++_logo">
         
-        <h3 class="css">CSS</h3>
+        <h3 class="css" id="css">CSS</h3>
         <img class="css_img"src="css-3.png" alt="css_logo">
     </div>
     </div>
 
 <div class ="projects">
     <div class="project" id="project"><h1>My Projects</h1></div>
-        <div class="project_img"><h1>In Progress ...</h1></div>
+        <div class="project_img"id="progress"><h1>In Progress ...</h1></div>
         <img class="soon_img"src="soon.png" alt="comingsoon_logo">
     </div>
     
@@ -68,12 +154,12 @@
 
     <div class="experence" id="expe"><h1>My Experiences</h1></div>
 
-    <li>Participated in <span class="experence_font_color">IEEEXTREME 16.0</span>  Programming Competition.</li>
-    <li>Finished  <span class="experence_font_color"> HTML/CSS</span>   course with ELZERO Academy.</li>
-    <li>Learning<span class="experence_font_color"> javascript</span> with Gaza Sky Geeks.</li>
-    <li>Participated in <span class="experence_font_color">CodeFighter </span>Programming Competition.</li>
-    <li>Member in<span class="experence_font_color"> Tamayyas</span> Team with Sharek Youth Forum.</li>
-    <li>Volunteered in several <span class="experence_font_color">University activities</span>.</li>
+    <li id="li">Participated in <span id="experence_font_color">IEEEXTREME 16.0</span>  Programming Competition.</li>
+    <li id="li2">Finished  <span id="experence_font_color"> HTML/CSS</span>   course with ELZERO Academy.</li>
+    <li id="li3">Learning<span id="experence_font_color"> javascript</span> with Gaza Sky Geeks.</li>
+    <li id="li4">Participated in <span id="experence_font_color">CodeFighter </span>Programming Competition.</li>
+    <li id="li5">Member in<span id="experence_font_color"> Tamayyas</span> Team with Sharek Youth Forum.</li>
+    <li id="li6">Volunteered in several <span id="experence_font_color">University activities</span>.</li>
     <div class="godown"><a href="#cont"><img class="arrowdown_img" src="arrowdown.png" alt=""></a></div>
     </div>
 
@@ -82,10 +168,10 @@
 <div class ="contacts">
 
     <div class="watsapp_and_insta">
-        <div class="watsapp"><h3>Whatsapp</h3></div>
+        <div class="watsapp"><h3 id="wats">Whatsapp</h3></div>
         <a href="https://wa.link/qoy8uc" target="_blank"><img class="wats_img" src="whatsapp.png" alt="whatsapp_logo"></a>
 
-        <div class="insta"><h3>Instagram</h3></div>
+        <div class="insta"><h3 id="insta">Instagram</h3></div>
         <a href="https://www.instagram.com/ezz_kalash/" target="_blank" ><img class="insta_img" src="instagram.png" alt="instgram_logo"></a>
     </div>
 
@@ -93,19 +179,19 @@
     <div class="facebook_and_git">
 
 
-        <div class="face"><h3>Facebook</h3></div>
+        <div class="face"><h3 id="face">Facebook</h3></div>
         <a href="https://www.facebook.com/profile.php?id=100008277180636" target="_blank"><img class="face_img" src="facebook.png" alt="facebook_logo"></a>
 
-        <div class="git"><h3>Git Hub</h3></div>
+        <div class="git"><h3 id="git">GitHub</h3></div>
         <a href="https://github.com/Ezz-Kalash" target="_blank"><img class="git_img" src="github.png" alt="github_logo"></a>
     </div>
 
 
     <div class="linkedin_email">
-        <div class="in"><h3>Linkedin</h3></div>
+        <div class="in"><h3 id="in">Linkedin</h3></div>
         <a href="https://www.linkedin.com/in/ezz-al-deen-kalash-814640238/" target="_blank"><img class="in_img" src="linkedin.png" alt="linkedin_logo"></a>
 
-        <div class="email"><h3>Email</h3></div>
+        <div class="email"><h3 id="email">Email</h3></div>
         <a href="https://ezzasd10@gmail.com"target="_blank" ><img class="email_img" src="gmail.png" alt="gmail_logo"></a>
     </div>
 </div>
@@ -113,8 +199,8 @@
 
 
 <footer>
-    <p>Thank you for your visit</p>
-    <h5>© EZZ ALDEEN KALASH 2023 <div></div>
+    <p id="thank">Thank you for your visit</p><br>
+    <h5 id="right">© EZZ ALDEEN KALASH 2023 <br>
         ALL RIGHTS RESERVED</h5>
 </footer>
 
