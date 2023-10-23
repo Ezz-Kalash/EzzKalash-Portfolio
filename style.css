@@ -100,7 +100,7 @@
 
             
     }
-    .jsp{
+    .fep{
         background-color: rgb(51, 51, 51);
 
     }
@@ -173,27 +173,30 @@
         font-size: 3vw;
     }
 
-    .js_html,.c_css {
+    .js_html,.c_css,.react_python {
         width: 50%;
         height: 50%;
         margin: 0;
         text-align: center;
     }
+    .react_python{
+        margin-top: -32vw;
+    }
 
-    .html,.js,.c,.css {
+    .html,.js,.c,.css,.react,.python {
         font-size: 2vw;
         color: black;
         text-align: center;
     }
 
-    .html_img,.css_img,.c_img,.js_img {
+    .html_img,.css_img,.c_img,.js_img ,.react_img,.python_img{
         width: 17.9%;
         margin-bottom: 2%;
         transition: 400ms;
     }
 
 
-    .html_img:hover,.css_img:hover,.js_img:hover,.c_img:hover {
+    .html_img:hover,.css_img:hover,.js_img:hover,.c_img:hover,.python_img:hover,.react_img:hover {
         scale: 103%;
         transition: 400ms;
     }
@@ -207,13 +210,6 @@
         position: relative;
     }
 
-    .html_img:hover,
-    .css_img:hover,
-    .js_img:hover,
-    .c_img:hover {
-        scale: 103%;
-        transition: 400ms;
-    }
 
     .project {
         
@@ -261,6 +257,12 @@
         }
     }
     .jsprojects{
+        display: none;
+        margin-top: 3vw;
+        animation: fadeInOut 1s ease; 
+
+    }
+    .reactprojects{
         display: flex;
         margin-top: 3vw;
         animation: fadeInOut 1s ease; 
@@ -277,7 +279,9 @@
     .project_button{
         text-align: center;
     }
-
+    .reactprojects{
+        display: flex;
+    }
 
     .do_list_block{
         border: 0.2px solid rgba(0, 0, 255, 0.113);
@@ -314,14 +318,16 @@
     }
 
     #gotogit,#gotogitm{
-        margin-top: -9vw;
-        margin-left: 3vw;
+        margin-top: -11vw;
+        margin-left: 2.5vw;
         color:aliceblue;
         position: relative;
         z-index: 100;
-        font-size: xx-large;
+        font-size: 2vw;
         display: none;
+        text-decoration: none;
         transition: 400ms;
+        font-family: 'Courier New', Courier, monospace;
 
     }
 
@@ -349,6 +355,46 @@
         height: 14vw;
         border-radius: 5%;
         transition: 400ms;
+
+    }
+        .instareact_block{
+        width: 55vw;
+        border: 0.2px solid rgba(0, 0, 255, 0.113);
+        height: 42vw;
+        background-color:rgba(240, 248, 255, 0.617);
+        border-radius: 10%;
+        margin-left: 22vw;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+    .instareact_txt{
+        text-align:center;
+        font-size: 2vw;
+        text-decoration:none;        
+    }
+
+    #instareact_img{
+        margin-left: 1vw;
+        width: 53vw;
+        height: 35.5vw;
+        border-radius: 5%;
+        transition: 400ms;
+
+    }
+    #gotogitreact{
+        margin-top: -23vw;
+        margin-left: 16vw;
+        color:aliceblue;
+        position: relative;
+        z-index: 100;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3vw;
+        display: none;
+        text-decoration: none;
+        transition: 400ms;
+        font-weight: 500;
 
     }
 
@@ -538,20 +584,20 @@
         align-items: center;
     }
 
-    .js_html,.c_css {
+    .js_html,.c_css,.react_python {
         width: 24%;
         margin: 0;
         text-align: center;
     }
-    .c_css{
-        margin-left: 20vw;
+    .c_css,.react_python{
+        margin-left: 7vw;
     }
 
-    .html,.js,.c,.css {
+    .html,.js,.c,.css,.python,.react {
         font-size: 5vw;
     }
 
-    .html_img,.css_img,.c_img,.js_img {
+    .html_img,.css_img,.c_img,.js_img ,.react_img,.python_img{
         width: 80%;
     }
 
@@ -575,15 +621,53 @@
     }
 
     #gotogit,#gotogitm{
-        margin-top: -18vw;
+        margin-top: -20vw;
         font-size:4vw;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+
     }
     #movie_img,#do_list_img{
         margin-left: -3vw;
         width: 25vw;
         height: 23vw;
     }
+    .instareact_block{
+        width: 52vw;
+        border: 0.2px solid rgba(0, 0, 255, 0.113);
+        height: 57vw;
+        background-color:rgba(240, 248, 255, 0.617);
+        border-radius: 10%;
+        margin-left: 20vw;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+    .instareact_txt{
+        text-align:center;
+        font-size: 3vw;
+        text-decoration:none;        
+    }
 
+    #instareact_img{
+        margin-left: 1vw;
+        width: 50vw;
+        height: 46vw;
+        border-radius: 5%;
+        transition: 400ms;
+
+    }
+    #gotogitreact{
+        margin-top: -28vw;
+        margin-left: 9vw;
+        color:aliceblue;
+        position: relative;
+        z-index: 100;
+        font-size: 4vw;
+        display: none;
+        text-decoration: none;
+        transition: 400ms;
+        font-weight: bold;
+
+    }
     .project {
         font-size: 4vw;
     }

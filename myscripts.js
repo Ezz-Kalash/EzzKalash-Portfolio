@@ -80,11 +80,12 @@ document.getElementById('dd').style.color = 'black'
 }
 function front(){
     document.getElementById('jsprojects').style.display = 'none'  
-    document.getElementById('progress').style.display = 'block'  
-    document.getElementById('soon_img').style.display = 'block'  
+    document.getElementById('progress').style.display = 'none'  
+    document.getElementById('soon_img').style.display = 'none'  
     document.getElementById('jsp').style.backgroundColor = 'rgb(34, 0, 255)'  
     document.getElementById('fep').style.backgroundColor = 'rgb(51, 51, 51)'  
     document.getElementById('bep').style.backgroundColor = 'rgb(34, 0, 255)'  
+    document.getElementById('reactprojects').style.display = 'flex'  
 
 
 
@@ -95,8 +96,9 @@ function js(){
     document.getElementById('jsprojects').style.display = 'flex'  
     document.getElementById('progress').style.display = 'none'  
     document.getElementById('soon_img').style.display = 'none'  
-    document.getElementById('jsp').style.backgroundColor = 'rgb(51, 51, 51)'  
+    document.getElementById('reactprojects').style.display = 'none'  
     document.getElementById('fep').style.backgroundColor = 'rgb(34, 0, 255)'  
+    document.getElementById('jsp').style.backgroundColor = 'rgb(51, 51, 51)'  
     document.getElementById('bep').style.backgroundColor = 'rgb(34, 0, 255)'  
 
 }
@@ -159,3 +161,28 @@ function text_nothover_movie(){
     document.getElementById('gotogitm').style.color = 'white'  
 
 }
+function img_hover_instareact(){
+    document.getElementById('gotogitreact').style.display = 'block'  
+    document.getElementById('instareact_img').style.filter = 'blur(2px)' 
+
+}
+function img_nothover_instareact(){
+    document.getElementById('gotogitreact').style.display = 'none'  
+    document.getElementById('instareact_img').style.filter = 'blur(0px)'  
+
+
+}
+function text_hover_instareact(){
+    document.getElementById('gotogitreact').style.display = 'block'  
+    document.getElementById('instareact_img').style.filter = 'blur(2px)' 
+    document.getElementById('gotogitreact').style.color = 'blue'  
+
+    
+}
+function text_nothover_instareact(){
+    document.getElementById('gotogitreact').style.display = 'none'  
+    document.getElementById('instareact_img').style.filter = 'blur(0px)' 
+    document.getElementById('gotogitreact').style.color = 'white'  
+
+}
+
