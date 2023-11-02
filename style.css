@@ -160,12 +160,8 @@
         height: 22.2vw;
         margin-left: 10%;
         margin-top: -23vw;
-        animation-name: stretch;
-        animation-duration: 2.0s;
-        animation-timing-function: ease-out;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-        animation-play-state: running;
+        filter: blur(1.5px)
+
     }
 
     .experenses,.contacts,main {
@@ -256,12 +252,12 @@
     }
 
     @keyframes stretch {
-        0% { transform: scale(0.9); }
+        0% { transform: scale(0.8); }
 
-        50% { transform: scale(0.95); }
+        50% { transform: scale(0.9); }
 
         100% { transform: scale(1);
-            filter: blur(3px);
+            ;
         }
     }
     .jsprojects{
