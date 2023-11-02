@@ -110,6 +110,8 @@ function js(){
 }
 function back(){
     document.getElementById('jsprojects').style.display = 'none'  
+    document.getElementById('reactprojects').style.display = 'none'  
+
     document.getElementById('progress').style.display = 'block'  
     document.getElementById('soon_img').style.display = 'block'  
     document.getElementById('jsp').style.backgroundColor = 'rgb(34, 0, 255)'  

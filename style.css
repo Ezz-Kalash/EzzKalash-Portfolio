@@ -1,7 +1,6 @@
     html{
         scroll-behavior: smooth;
         font-family:monospace;
- 
     }
     body {
         background-image: url(Imges/bb.jpg);
@@ -10,7 +9,6 @@
         width: 98%;
         height: 100%;
         transition: 200ms;
-
     }
 
     header {
@@ -60,9 +58,7 @@
     .skill_head:hover,.project_head:hover,.home_head:hover,.experience_head:hover,.cont_head:hover{
         color: rgb(0, 0, 173);
         transition: 400ms;
-        box-shadow: 9px 15px 15px rgba(0, 0, 0, 0.245);
-
-        
+        box-shadow: 9px 15px 15px rgba(0, 0, 0, 0.245);  
     }
 
     .develop {
@@ -71,22 +67,15 @@
         width: 39%;
         height: 21vw;
         color: black;
-        
     }
 
     .major {
         font-size: 1.2vw;
         position: left;
         color: rgb(34, 0, 255);
-        
-        
-
     }
 
-    .hello {
-        font-size: 1.5vw;
-
-    }
+    .hello { font-size: 1.5vw }
 
     .contact_button {
             color: white;
@@ -124,7 +113,7 @@
         margin-left: 2vw;
 
     }
-    .fep{ background-color: rgb(51, 51, 51);}
+    .fep{ background-color: rgb(51, 51, 51) }
 
     .contact_button:hover,.jsp:hover,.bep:hover,.fep:hover {
             color: white;
@@ -134,10 +123,7 @@
             transition: 400ms;
     }
 
-    .aaup,.this {
-        font-size: 1.1vw;
-
-    }
+    .aaup,.this { font-size: 1.1vw }
 
     .img-circle {
             width: 30%;
@@ -145,7 +131,6 @@
             margin-left: 60%;
             margin-bottom: 3vw;
             z-index: -13;
-
     }
 
     .img {
@@ -158,6 +143,7 @@
         margin-top: -30vw;
         position: relative;
         transition: 400ms;
+        z-index: 666;
 
     }
 
@@ -174,8 +160,12 @@
         height: 22.2vw;
         margin-left: 10%;
         margin-top: -23vw;
-
-            
+        animation-name: stretch;
+        animation-duration: 2.0s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
     }
 
     .experenses,.contacts,main {
@@ -190,7 +180,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
     }
 
     .skill {
@@ -198,7 +187,6 @@
         color: black;
         text-align: center;
         font-size: 3vw;
-        
     }
 
     .js_html,.c_css,.react_python {
@@ -223,13 +211,10 @@
         transition: 400ms;
     }
 
-
     .html_img:hover,.css_img:hover,.js_img:hover,.c_img:hover,.python_img:hover,.react_img:hover {
         scale: 103%;
         transition: 400ms;
     }
-
-
 
     .working_img {
         width: 100%;
@@ -237,7 +222,6 @@
         margin-bottom: -11vw;
         position: relative;
     }
-
 
     .project {
         
@@ -259,7 +243,6 @@
 
     .soon_img {
         animation: fadeInOut 1.5s ease; 
-
         display: none;
         margin-left: 43%;
         width: 15%;
@@ -273,16 +256,11 @@
     }
 
     @keyframes stretch {
-        0% {
-            transform: scale(0.5);
-        }
+        0% { transform: scale(0.9); }
 
-        50% {
-        }
+        50% { transform: scale(0.95); }
 
-        100% {
-            transform: scale(0.9);
-        }
+        100% { transform: scale(1); }
     }
     .jsprojects{
         display: none;
@@ -304,11 +282,13 @@
         text-align: center;
         font-size: 2vw;
      }
+
     .project_button{
         text-align: center;
         display: flex;
         margin-left: 30vw;
     }
+
     .reactprojects{
         display: flex;
     }
@@ -324,11 +304,9 @@
     }
     
     @keyframes fadeInOut {
-      0% {             transform: scale(0.6);      }
-      50% {
-      }
-      100% {             transform: scale(1);
-      }
+      0% { transform: scale(0.6); }
+      50% {}
+      100% { transform: scale(1); }
     }
 
     .do_list_txt{
@@ -459,12 +437,14 @@
     }
 
     .godown {
-        background-color: rgba(0, 0, 255, 0.244);
+        background-color: rgba(65, 65, 65, 0.244);
+        border-radius: 7%;
+        padding: 0.8vw;
         width: 3.5%;
         height: 3.5vw;
-        border: solid rgba(0, 0, 255, 0.244) 7px;
         margin-left: 90%;
-        margin-top: 9%;
+        margin-top: 6%;
+        box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.245);
         transition: 400ms;
     }
 
@@ -550,11 +530,6 @@
     }
 
 
-
-
-
-
-
     @media screen and (max-width: 768px) {      
 
     .darkmode,.notdark {
@@ -619,8 +594,6 @@
 
     }
 
-
-
     .js_html,.c_css,.react_python {
         width: 24%;
         margin: 0;
@@ -682,6 +655,7 @@
         margin-left: 20vw;
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     }
+
     .instareact_txt{
         text-align:center;
         font-size: 3vw;
@@ -696,8 +670,9 @@
         transition: 400ms;
 
     }
+
     #gotogitreact{
-        margin-top: -28vw;
+        margin-top: -31vw;
         margin-left: 9vw;
         color:aliceblue;
         position: relative;
@@ -707,8 +682,8 @@
         text-decoration: none;
         transition: 400ms;
         font-weight: bold;
-
     }
+
     .project {
         font-size: 4vw;
     }
@@ -737,7 +712,11 @@
     .cont {
         font-size: 6vw;
 
-        }
+    }
+    
+    .contacts{
+        margin-left: -5vw;
+    }
 
     .watsapp,.insta,.face,.git,.in,.email {
         font-size: 3vw;
@@ -752,6 +731,7 @@
         margin-left: 10%;
         font-size: 5vw;
     }
+
     footer > h5{
         margin-top: 16%;
         font-size: 1vw;    
