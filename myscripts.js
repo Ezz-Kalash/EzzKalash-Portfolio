@@ -9,6 +9,8 @@ function dark() {
     document.getElementById('html').style.color = 'white'
     document.getElementById('js').style.color = 'white'
     document.getElementById('c').style.color = 'white'
+    document.getElementById('react').style.color = 'white'
+    document.getElementById('python').style.color = 'white'
     document.getElementById('css').style.color = 'white'
     document.getElementById('cont').style.color = 'white'
     document.getElementById('project').style.color = 'white'
@@ -29,6 +31,7 @@ function dark() {
     document.getElementById('li4').style.color = 'white'
     document.getElementById('li5').style.color = 'white'
     document.getElementById('li6').style.color = 'white'
+    document.getElementById('li7').style.color = 'white'
     document.getElementById('thank').style.color = 'white'
     document.getElementById('right').style.color = 'white'
     document.getElementById('do_list_js').style.color = 'white'
@@ -51,6 +54,8 @@ document.getElementById('dd').style.color = 'black'
     document.getElementById('html').style.color = 'black'
     document.getElementById('js').style.color = 'black'
     document.getElementById('c').style.color = 'black'
+    document.getElementById('react').style.color = 'black'
+    document.getElementById('python').style.color = 'black'
     document.getElementById('css').style.color = 'black'
     document.getElementById('cont').style.color = 'black'
     document.getElementById('project').style.color = 'black'
@@ -70,6 +75,7 @@ document.getElementById('dd').style.color = 'black'
     document.getElementById('li4').style.color = 'black'
     document.getElementById('li5').style.color = 'black'
     document.getElementById('li6').style.color = 'black'
+    document.getElementById('li7').style.color = 'black'
     document.getElementById('thank').style.color = 'black'
     document.getElementById('right').style.color = 'black'
     document.getElementById('do_list_js').style.color = 'black'
@@ -185,4 +191,6 @@ function text_nothover_instareact(){
     document.getElementById('gotogitreact').style.color = 'white'  
 
 }
+
+
 

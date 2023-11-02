@@ -5,46 +5,46 @@
     <link rel="icon" href="Imges/logo.png">
     <script src="myscripts.js"></script>
 
+
 </head>
 
 <html>
     <title>EzzAldeen Portfolio</title>
 
-<body id="dark">
-    <header>
-        <a href="#top"  class="home_head" target="" >Home</a>
-        <a href="#skill"  class="skill_head" target="" >Skills</a>
-        <a href="#project" class="project_head" target="">Projects</a>
-        <a href="#expe" class="experience_head">Experiences</a>
-        <a href="#cont" class="cont_head">Contact</a>
+<body id="dark" >
+    <header id="head">
+        <div data-aos="fade-right" data-aos-duration="800"><a href="#top"  class="home_head" target="" >Home</a></div>
+        <div data-aos="fade-right" data-aos-duration="1100"> <a href="#skill"  class="skill_head" target="" >Skills</a></div>
+        <div data-aos="fade-right" data-aos-duration="1300">  <a href="#project" class="project_head" target="">Projects</a></div>
+        <div data-aos="fade-right" data-aos-duration="1500">  <a href="#expe" class="experience_head">Experiences</a></div>
+        <div data-aos="fade-right" data-aos-duration="1700">  <a href="#cont" class="cont_head">Contact</a></div>
 
         <img src="Imges/dark.png" alt="" onclick="dark()" class="darkmode" id="darkmode">
         <img src="Imges/sun.png" alt="" onclick="reset()" class="notdark" id="notdark">
 </header>
 
-    <main> 
-        <div class="develop" id="dd">
+    <main data-aos="zoom-in-down"> 
+        <div class="develop" id="dd" >
         <div class="hello" id="dark"><h1> Im Ezz Aldeen Kalash,</h1></div>
         <div class="major" ><h2> Computer Systems Engineer</h2></div>
         <div class="aaup" id="dark"><h2>Student At AAUP</h2></div>
-        <div class="this"><h3>And this is My Website</h3></div>
+        <div class="this"><h3>And this is My Portfolio</h3></div>
         <br>
-        <a href="#cont" class="contact_button" target="">Contact Me</a>
+        <a class="contact_button" href="#cont"  target="">Contact Me</a>
 
     </div>
-    </main>
 
 
-    <div class="img-circle">
+    <div class="img-circle" >
         <div class="img"></div>
         <div class="circle"></div>
     </div>
 </main>
 
-<h1 class="skill" id="skill">My Skills</h1>
-<div class ="sklls">
+<h1 class="skill" id="skill" data-aos="fade-right" data-aos-duration="800">My Skills</h1>
+<div class ="sklls" >
 
-    <div class="js_html">
+    <div class="js_html" data-aos="fade-right" data-aos-duration="1200" >
         <h3 class="js" id="js">JavaScript</h3>
         <img  class="js_img" src="Imges/js.png" alt="javascript_logo">
 
@@ -52,7 +52,7 @@
         <img class="html_img"src="Imges/html.png" alt="html_logo">
     </div>
 
-    <div class="c_css" >
+    <div class="c_css" data-aos="fade-right">
         <h3 class="c" id="c">C++</h3>
         <img class="c_img"src="Imges/c-.png" alt="c++_logo">
         
@@ -60,21 +60,21 @@
         <img class="css_img"src="Imges/css-3.png" alt="css_logo">
         
     </div>
-    <div class="react_python" >
+    <div class="react_python" data-aos="fade-right">
         <h3 class="react" id="react">React</h3>
         <img class="react_img"src="Imges/react.png" alt="react_logo">
         <h3 class="python" id="python">Python</h3>
-        <img class="python_img"src="Imges/python.png" alt="python_logo">
+        <img class="python_img"src="Imges/python.png" alt="python_logo">.
         
     </div>
     </div>
 
-    <div class ="projects">
-        <div class="project" id="project"><h1>My Projects</h1></div>
+    <div class ="projects" >
+        <div class="project" id="project" data-aos="fade-up" data-aos-duration="500"><h1>My Projects</h1></div>
         <div class="project_button">
-        <a  onclick="front()" id="fep" class="fep" target="" >React</a>
-        <a  onclick="js()" id="jsp" class="jsp" target=""  >JavaScript</a>
-        <a  onclick="back()" id="bep" class="bep" target="" >Back End</a>
+        <div data-aos="fade-right" data-aos-duration="300" id="fep" class="fep"onclick="front()" ><a target="" >React</a></div>
+        <div data-aos="fade-right" data-aos-duration="800" id="jsp" class="jsp"  onclick="js()"><a target=""  >JavaScript</a></div>
+        <div data-aos="fade-right"data-aos-duration="1000" id="bep" class="bep"  onclick="back()"><a target="" >Back End</a></div>
         </div>
 
 
@@ -103,7 +103,7 @@
     </div>
     <div class="reactprojects" id="reactprojects">
 
-        <div class="instareact_block">
+        <div class="instareact_block"  data-aos="fade-right" data-aos-duration="300" >
             <h2 class="instareact_txt" id="instareact_txt">Instagram Clone</h1>
             <div><img onmouseover="img_hover_instareact()" onmouseleave="img_nothover_instareact()" id="instareact_img" src="Imges/reactimg.png" alt="moviecatalogimg" >
             <a id="gotogitreact" href="https://github.com/Ezz-Kalash/Instagram-clone" target="_blank">
@@ -116,22 +116,24 @@
     
     <div class ="experenses" id="experenses">
 
-    <div class="experence" id="expe"><h1>My Experiences</h1></div>
+    <div class="experence" id="expe" data-aos="fade-up" data-aos-duration="500"><h1>My Experiences</h1></div>
 
-    <li id="li">Participated in <span id="experence_font_color">IEEEXTREME 16.0</span>  Programming Competition.</li>
-    <li id="li2">Finished  <span id="experence_font_color"> HTML/CSS</span>   course with ELZERO Academy.</li>
-    <li id="li3">Learning<span id="experence_font_color"> javascript</span> with Gaza Sky Geeks.</li>
-    <li id="li4">Participated in <span id="experence_font_color">CodeFighter </span>Programming Competition.</li>
-    <li id="li5">Member in<span id="experence_font_color"> Tamayyas</span> Team with Sharek Youth Forum.</li>
-    <li id="li6">Volunteered in several <span id="experence_font_color">University activities</span>.</li>
+    <div  data-aos="fade-right" data-aos-duration="300" ><li id="li">Participated in <span id="experence_font_color">IEEEXTREME 16.0 and 17.0</span>  Programming Competition.</li></div>
+    <div  data-aos="fade-right" data-aos-duration="300" > <li id="li2">Finished  <span id="experence_font_color"> HTML/CSS</span>   course with ELZERO Academy.</li></div>
+    <div  data-aos="fade-right" data-aos-duration="300" ><li id="li3">Finished<span id="experence_font_color"> Advance JavaScript</span> course with Gaza Sky Geeks.</li></div>
+    <div  data-aos="fade-right" data-aos-duration="300" ><li id="li4">Finished<span id="experence_font_color"> React</span> course with Gaza Sky Geeks.</li></div>
+    <div  data-aos="fade-right" data-aos-duration="300" ><li id="li5">Participated in <span id="experence_font_color">CodeFighter </span>Programming Competition.</li></div>
+    <div  data-aos="fade-right" data-aos-duration="300" ><li id="li6">Member in<span id="experence_font_color"> Tamayyas</span> Team with Sharek Youth Forum.</li></div>
+    <div  data-aos="fade-right" data-aos-duration="300" > <li id="li7">Volunteered in several <span id="experence_font_color">University activities</span>.</li></div>
+
     <div class="godown"><a href="#cont"><img class="arrowdown_img" src="Imges/arrowdown.png" alt=""></a></div>
     </div>
 
-    <h1 class="cont" id="cont">Contact with me through:</h1>
+    <h1 class="cont" id="cont" data-aos="fade-up" data-aos-duration="500">Contact with me through:</h1>
 
-<div class ="contacts">
+<div class ="contacts" >
 
-    <div class="watsapp_and_insta">
+    <div class="watsapp_and_insta"  data-aos="flip-down" data-aos-duration="1000">
         <div class="watsapp"><h3 id="wats">Whatsapp</h3></div>
         <a href="https://wa.link/qoy8uc" target="_blank"><img class="wats_img" src="Imges/whatsapp.png" alt="whatsapp_logo"></a>
 
@@ -140,7 +142,7 @@
     </div>
 
 
-    <div class="facebook_and_git">
+    <div class="facebook_and_git"  data-aos="flip-down" data-aos-duration="1300">
 
 
         <div class="face"><h3 id="face">Facebook</h3></div>
@@ -151,7 +153,7 @@
     </div>
 
 
-    <div class="linkedin_email">
+    <div class="linkedin_email"  data-aos="flip-down" data-aos-duration="1800">
         <div class="in"><h3 id="in">Linkedin</h3></div>
         <a href="https://www.linkedin.com/in/ezz-al-deen-kalash-814640238/" target="_blank"><img class="in_img" src="Imges/linkedin.png" alt="linkedin_logo"></a>
 
@@ -160,13 +162,19 @@
     </div>
 </div>
 
+
+
 <footer>
     <p id="thank">Thank you for your visit</p><br>
     <h5 id="right">© EZZ ALDEEN KALASH 2023 <br>
         ALL RIGHTS RESERVED</h5>
 </footer>
 
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
