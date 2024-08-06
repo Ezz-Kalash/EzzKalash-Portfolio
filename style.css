@@ -9,6 +9,7 @@
         width: 98%;
         height: 100%;
         transition: 200ms;
+        
     }
 
     header {
@@ -72,6 +73,8 @@
     .major {
         font-size: 1.2vw;
         position: left;
+        margin-top: 3vw;
+        margin-bottom: 2vw;
         color: rgb(34, 0, 255);
     }
 
@@ -160,8 +163,12 @@
         height: 22.2vw;
         margin-left: 10%;
         margin-top: -23vw;
-        filter: blur(1.5px)
-
+        animation-name: stretch;
+        animation-duration: 2.0s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
     }
 
     .experenses,.contacts,main {
@@ -174,7 +181,6 @@
         width: 100%;
         height: 80%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -185,30 +191,28 @@
         font-size: 3vw;
     }
 
-    .js_html,.c_css,.react_python {
+    .js_html,.c_css,.react_python ,.oracle_sql {
         width: 50%;
         height: 50%;
         margin: 0;
         text-align: center;
     }
-    .react_python{
-        margin-top: -32vw;
-    }
+ 
 
-    .html,.js,.c,.css,.react,.python {
+    .html,.js,.c,.css,.react,.python,.oracle,.db{
         font-size: 2vw;
         color: black;
         text-align: center;
     }
 
-    .html_img,.css_img,.c_img,.js_img ,.react_img,.python_img{
-        width: 17.9%;
+    .html_img,.css_img,.c_img,.js_img ,.react_img,.python_img,.apex_img,.db_img{
+        width: 35.9%;
         margin-bottom: 2%;
         transition: 400ms;
     }
 
-    .html_img:hover,.css_img:hover,.js_img:hover,.c_img:hover,.python_img:hover,.react_img:hover {
-        scale: 103%;
+    .html_img:hover,.css_img:hover,.js_img:hover,.c_img:hover,.python_img:hover,.react_img:hover,.apex_img:hover,.db_img:hover {
+        scale: 104%;
         transition: 400ms;
     }
 
@@ -252,12 +256,12 @@
     }
 
     @keyframes stretch {
-        0% { transform: scale(0.8); }
+        0% { transform: scale(0.9); }
 
-        50% { transform: scale(0.9); }
+        50% { transform: scale(0.95); }
 
         100% { transform: scale(1);
-            ;
+            filter: blur(3px);
         }
     }
     .jsprojects{
@@ -592,21 +596,14 @@
 
     }
 
-    .js_html,.c_css,.react_python {
-        width: 24%;
-        margin: 0;
-        text-align: center;
-    }
-    .c_css,.react_python{
-        margin-left: 7vw;
+    .sklls{display: flexbox;}
+
+    .html,.js,.c,.css,.python,.react,.oracle,.db {
+        font-size: 3vw;
     }
 
-    .html,.js,.c,.css,.python,.react {
-        font-size: 5vw;
-    }
-
-    .html_img,.css_img,.c_img,.js_img ,.react_img,.python_img{
-        width: 80%;
+    .html_img,.css_img,.c_img,.js_img ,.react_img,.python_img,.apex_img,.db_img{
+        width: 70%;
         }
 
     .jsprojects{
