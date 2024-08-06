@@ -26,7 +26,6 @@ function dark() {
     document.getElementById('expe').style.color = 'white'
     document.getElementById('experence_font_color').style.color = 'blue'
     document.getElementById('git_img').style.backgroundColor = 'rgba(240, 248, 255, 0.617)'
-
     document.getElementById('li').style.color = 'white'
     document.getElementById('li2').style.color = 'white'
     document.getElementById('li3').style.color = 'white'
